@@ -52,3 +52,14 @@ button:hover {
   image-rendering: crisp-edges;
   
 }
+
+#planets {
+  opacity: 0;          /* Invisible to the user */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 1px;
+  pointer-events: none;
+  border: none;
+}

@@ -2,7 +2,7 @@
   "name": "astro-weight-calculator",
   "version": "1.0.0",
   "scripts": {
-    "start": "npx node-static . -p 8888",
+    "start": "npx node-static public -p 8888",
     "test": "npx playwright test",
     "postinstall": "npx playwright install"
   },

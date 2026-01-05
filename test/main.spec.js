@@ -3,7 +3,7 @@ const nodeStatic = require('node-static');
 const http = require('http');
 
 const PORT = 8888;
-const url = `http://localhost:${PORT}/index.html`;
+const url = `http://localhost:${PORT}/public/index.html`;
 
 let server;
 
